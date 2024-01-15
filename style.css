@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff; /* Color de fondo blanco para el encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.inicio-btn {
+    background-color: #F7E069;
+    position: relative; 
+    top: -44px;
+    left: 800px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.actividades-btn {
+    background-color: #F7E069;
+    position: relative; 
+    top: -44px;
+    left: 800px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.sobre-panama-btn {
+    background-color: #F7E069;
+    position: relative; 
+    top: -44px;
+    left: 800px;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+
+}

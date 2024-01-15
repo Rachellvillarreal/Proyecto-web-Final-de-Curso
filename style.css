@@ -12,6 +12,14 @@ header {
     align-items: center;
 }
 
+input {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
 
 .inicio-btn {
     background-color: #F7E069;
@@ -19,7 +27,7 @@ header {
     top: -44px;
     left: 800px;
     color: #ffffff;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 5px;
     text-decoration: none;
 
@@ -31,7 +39,7 @@ header {
     top: -44px;
     left: 800px;
     color: #ffffff;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 5px;
     text-decoration: none;
 
@@ -43,7 +51,7 @@ header {
     top: -44px;
     left: 800px;
     color: #ffffff;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1rem;
     border-radius: 5px;
     text-decoration: none;
 

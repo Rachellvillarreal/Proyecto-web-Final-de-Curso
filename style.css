@@ -12,12 +12,25 @@ header {
     align-items: center;
 }
 
+button {
+    
+    background-color: #D9D9D9;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    position: relative;
+    right: 92px;
+}
+
 input {
     background-color: #D9D9D9;
     border-radius: 20px;
+    text-align: center;
     outline: none;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -55,4 +68,34 @@ input {
     border-radius: 5px;
     text-decoration: none;
 
+}
+
+.contenedor-imagen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-portada {
+    background-image: url('img/guayacan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center center;
+    filter: blur(1px);
+    height: 350px;
+    width: 1267px;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1; /* Coloca el texto por encima de la capa de imagen con desenfoque */
+}
+
+h1, h2 {
+    margin: 0;
 }

@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
-   <link rel="stylesheet" href="style.css">
-   <script src="https://kit.fontawesome.com/9b0583967e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9b0583967e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <div class="LOGO">
-       <img src="img/LOGO5.PNG" alt="VisitPanama" width="250" height="250">
+            <img src="img/LOGO5.PNG" alt="VisitPanama" width="250" height="250">
         </div>
         <form action="/buscar" method="get">
-        <input type="text" id="searchInput"
-        placeholder="Buscar...">
-         <button type="submit">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </button>
-      </form>
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
     </header>
-        <nav class="navbar">
-            <div class="menu-buttons">
-                <a href="#" class="inicio-btn">Inicio</a>
-                <a href="#" class="actividades-btn">Actividades</a>
-                <a href="#" class="sobre-panama-btn">Sobre Panama</a>
-        </nav>
-        <div class="contenedor-imagen">
-        <div class="imagen-portada" ></div>
-            <div class="texto">
-                <h1>Visit Panama</h1>
-        <h2> Travel Agency</h2></div>
+    <nav class="navbar">
+        <div class="menu-buttons">
+            <a href="#" class="inicio-btn">Inicio</a>
+            <a href="#" class="sobre-panama-btn">Sobre Panama</a>
+    </nav>
+    <div class="contenedor-imagen">
+        <div class="imagen-portada"></div>
+        <div class="texto">
+            <h1>Visit Panama</h1>
+            <h2> Travel Agency</h2>
         </div>
-        <div id="eventos-container"></div>
+    </div>
+    <div id="eventos-container"></div>
+
+    <div class="parrafo-container">
+        <h3>Sobre Panamá</h3>
+        <p>Panamá es un país ubicado en el extremo sureste de América Central, conocido por su posición estratégica en
+            el istmo que une América del Norte y América del Sur. Su capital es la Ciudad de Panamá, que alberga el
+            famoso Canal de Panamá, una vía de navegación crucial que conecta los océanos Atlántico y Pacífico.
+            En cuanto al turismo, Panamá ofrece una amplia variedad de atractivos. El Canal de Panamá es una de las
+            principales atracciones, pero el país también cuenta con hermosas playas en el Caribe y el Pacífico, como
+            Bocas del Toro y San Blas. La Ciudad Vieja de Panamá, con su arquitectura colonial española, es otro punto
+            de interés cultural.
+            La diversidad de la flora y fauna en Panamá es notable. Su geografía diversa, que incluye selvas tropicales,
+            montañas y costas, alberga una gran variedad de especies. En áreas como el Parque Nacional Darién, se pueden
+            encontrar jaguares, perezosos, monos y una abundancia de aves exóticas. Además, las islas de Coiba y Bocas
+            del Toro son reconocidas por sus ecosistemas marinos únicos y biodiversidad submarina.
+            Panamá es un destino turístico atractivo que combina una rica historia, belleza natural y una biodiversidad
+            única, lo que lo convierte en un lugar fascinante para explorar.</p>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

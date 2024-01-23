@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:  'EB Garamond', serif;
     background-color: #F7E069;
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #ffffff; /* Color de fondo blanco para el encabezado */
-    padding: 20px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,18 +36,6 @@ input {
 }
 
 .inicio-btn {
-    background-color: #F7E069;
-    position: relative; 
-    top: -44px;
-    left: 800px;
-    color: #ffffff;
-    padding: 0.75rem 1rem;
-    border-radius: 5px;
-    text-decoration: none;
-
-}
-
-.actividades-btn {
     background-color: #F7E069;
     position: relative; 
     top: -44px;
@@ -102,7 +90,8 @@ h1, h2 {
 }
 
 .card {
-    background-color: #040404;
+    background-color: #ffffff;
+    border: 1px solid #000000;
     border-radius: 20px ;
     padding: 20px;
     margin: 10px;
@@ -114,14 +103,32 @@ h1, h2 {
     height: auto;
 }
 .card h3 {
-    color: #ffffff;
+    color: #000000;
 }
 .card p {
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 #eventos-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.parrafo-container {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #000000;
+}
+
+p {
+    color: #000000;
+    line-height: 1.6;
 }

@@ -1,5 +1,6 @@
 console.log("Dimitri & Kora MICHI MIAU")
 
+
 const jsonFile = 'db.json';
 let eventos;
 
@@ -59,3 +60,53 @@ searchInput.addEventListener('input', function() {
 eventosContainer.appendChild(card);
   });
 });
+
+//botones categorías//
+//senderismo-button//
+
+const senderismoButton =
+document.getElementById("senderismo-button");
+
+senderismoButton.addEventListener("click", function() {
+  
+  alert("Button clicked!");
+});
+
+
+//museos-button//
+
+const museosButton =
+document.getElementById("museos-button");
+
+museosButton.addEventListener("click", function() {
+  
+  alert("Button clicked!");
+});
+
+//fnacionales-button//
+
+const fnacionalesButton =
+document.getElementById("fnacionales-button");
+
+fnacionalesButton.addEventListener("click", function() {
+  
+  alert("Button clicked!");
+});
+
+//playas-button//
+
+const playasButton =
+document.getElementById("playas-button");
+
+playasButton.addEventListener("click", function() {
+  
+  alert("Button clicked!");
+});
+
+
+//boton funcional sobre panamá agregando onclick="scrollToSobrePanama() a mi boton//
+
+function scrollToSobrePanama() {
+  var sobrePanamaSection = document.getElementById('parrafo-container');
+  sobrePanamaSection.scrollIntoView({ behavior: 'smooth' });
+}

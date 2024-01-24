@@ -1,46 +1,26 @@
 body {
-    font-family:  'EB Garamond', serif;
+    font-family: 'EB Garamond', serif;
     background-color: #F7E069;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffffff; /* Color de fondo blanco para el encabezado */
+    background-color: #ffffff;
+    /* Color de fondo blanco para el encabezado */
     padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-button {
-    
-    background-color: #D9D9D9;
-    border-radius: 0px;
-    outline: none;
-    border: none;
-    font-size: large;
-    cursor: pointer;
-    position: relative;
-    right: 92px;
-}
-
-input {
-    background-color: #D9D9D9;
-    border-radius: 20px;
-    text-align: center;
-    outline: none;
-    border: none;
-    font-size: 18px;
-    padding: 10px;
-}
-
 .inicio-btn {
-    background-color: #F7E069;
-    position: relative; 
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #333;
     top: -44px;
     left: 800px;
-    color: #ffffff;
+    color: #000000;
     padding: 0.75rem 1rem;
     border-radius: 5px;
     text-decoration: none;
@@ -48,11 +28,12 @@ input {
 }
 
 .sobre-panama-btn {
-    background-color: #F7E069;
-    position: relative; 
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #333;
     top: -44px;
     left: 800px;
-    color: #ffffff;
+    color: #000000;
     padding: 0.75rem 1rem;
     border-radius: 5px;
     text-decoration: none;
@@ -69,7 +50,7 @@ input {
     background-image: url('img/guayacan.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-   background-position: center center;
+    background-position: center center;
     filter: blur(1px);
     height: 350px;
     width: 1267px;
@@ -82,34 +63,94 @@ input {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-    z-index: 1; /* Coloca el texto por encima de la capa de imagen con desenfoque */
+    z-index: 1;
+        /*este es el quez Coloca el texto por encima de la capa de imagen con desenfoque */
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 0;
 }
+
+.mixto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*este container contiene buscador y botones de categoría*/
+
+input {
+    background-color: #cdcdcd;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+
+
+/* inicio botones categorias*/
+
+.categorias-containier {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.categoria-container{
+    text-align: right; /* alineación de los botones a la derecha :)*/
+    margin: 20px auto; /* Aquí se ajusta la separación vertical entre la imagen y el contenedor de botones */
+}
+
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a5a5a;
+    color: #fff;
+}
+
+/*hasta aqui botones*/
 
 .card {
     background-color: #ffffff;
     border: 1px solid #000000;
-    border-radius: 20px ;
+    border-radius: 20px;
     padding: 20px;
     margin: 10px;
     width: 200px;
     text-align: center;
 }
+
 .card img {
     max-width: 100%;
     height: auto;
 }
+
 .card h3 {
     color: #000000;
 }
+
 .card p {
     font-size: 20px;
     color: #000000;
 }
-#eventos-container{
+
+#eventos-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

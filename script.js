@@ -69,7 +69,25 @@ document.getElementById("senderismo-button");
 
 senderismoButton.addEventListener("click", function() {
   
-  alert("Button clicked!");
+  const eventosFiltrados = eventos.filter(evento => {
+    return evento.category.toLowerCase().includes("senderismo");
+  });
+
+  eventosContainer.innerHTML = '';
+
+  eventosFiltrados.forEach(evento => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    card.innerHTML =`
+    <img src="${evento.image}" alt="${evento.title}">
+    <h3>${evento.title}</h3>
+    <p>${evento.description}</p>
+    <p>${evento.price}</p>
+`;
+
+eventosContainer.appendChild(card);
+  });
 });
 
 
@@ -80,7 +98,25 @@ document.getElementById("museos-button");
 
 museosButton.addEventListener("click", function() {
   
-  alert("Button clicked!");
+  const eventosFiltrados = eventos.filter(evento => {
+    return evento.category.toLowerCase().includes("museos");
+  });
+
+  eventosContainer.innerHTML = '';
+
+  eventosFiltrados.forEach(evento => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    card.innerHTML =`
+    <img src="${evento.image}" alt="${evento.title}">
+    <h3>${evento.title}</h3>
+    <p>${evento.description}</p>
+    <p>${evento.price}</p>
+`;
+
+eventosContainer.appendChild(card);
+  });
 });
 
 //fnacionales-button//
@@ -90,7 +126,25 @@ document.getElementById("fnacionales-button");
 
 fnacionalesButton.addEventListener("click", function() {
   
-  alert("Button clicked!");
+  const eventosFiltrados = eventos.filter(evento => {
+    return evento.category.toLowerCase().includes("festividades nacionales");
+  });
+
+  eventosContainer.innerHTML = '';
+
+  eventosFiltrados.forEach(evento => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    card.innerHTML =`
+    <img src="${evento.image}" alt="${evento.title}">
+    <h3>${evento.title}</h3>
+    <p>${evento.description}</p>
+    <p>${evento.price}</p>
+`;
+
+eventosContainer.appendChild(card);
+  });
 });
 
 //playas-button//
@@ -100,7 +154,25 @@ document.getElementById("playas-button");
 
 playasButton.addEventListener("click", function() {
   
-  alert("Button clicked!");
+  const eventosFiltrados = eventos.filter(evento => {
+    return evento.category.toLowerCase().includes("playas");
+  });
+
+  eventosContainer.innerHTML = '';
+
+  eventosFiltrados.forEach(evento => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+
+    card.innerHTML =`
+    <img src="${evento.image}" alt="${evento.title}">
+    <h3>${evento.title}</h3>
+    <p>${evento.description}</p>
+    <p>${evento.price}</p>
+`;
+
+eventosContainer.appendChild(card);
+  });
 });
 
 
@@ -109,4 +181,24 @@ playasButton.addEventListener("click", function() {
 function scrollToSobrePanama() {
   var sobrePanamaSection = document.getElementById('parrafo-container');
   sobrePanamaSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function resetCategories(){
+  eventosContainer = document.getElementById('eventos-container');
+
+  eventosContainer.innerHTML = '';
+
+    eventos.forEach(evento => {
+      const card = document.createElement('div');
+      card.classList.add('card')
+
+      card.innerHTML = `
+      <img src="${evento.image}" alt="${evento.title}">
+        <h3>${evento.title}</h3>
+        <p>${evento.description}</p>
+        <p>${evento.price}</p>
+      `;
+
+      eventosContainer.appendChild(card);
+    });
 }

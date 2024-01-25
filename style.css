@@ -126,15 +126,18 @@ button:hover {
 
 /*hasta aqui botones*/
 
+/*diseño de cards*/
+
 .card {
     background-color: #ffffff;
     border: 1px solid #000000;
     border-radius: 20px;
     padding: 20px;
-    margin: 10px;
-    width: 200px;
+    margin: 50px; /* Reduce o agranda el margen para separar o juntar*/
+    width: 300px; /* Calcula el ancho de cada tarjeta teniendo en cuenta el espacio entre ellas */
     text-align: center;
-}
+    box-sizing: border-box;
+}  /*hacer que mis cards esten de 3 en 3*/
 
 .card img {
     max-width: 100%;
@@ -149,12 +152,16 @@ button:hover {
     font-size: 20px;
     color: #000000;
 }
+ 
+/*fin diseño de cards*/
 
-#eventos-container {
+
+.container-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
+    gap: 10px; /* Ajusta el espacio entre las tarjetas según tus necesidades */
+    justify-content: space-between;
+ }     /*llamar un class -container-cards-*/
 
 .parrafo-container {
     max-width: 500px;

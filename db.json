@@ -1,149 +1,118 @@
 {
-    "eventos": [
-      {
-        "id": 1,
-        "title": "Visita el Biomuseo",
-        "description": "una conjunción poderosa entre ciencia y arte , es un museo de historia natural dedicado a Panamá que explora la relación entre su biodiversidad y su cultura.",
-        "location": "Isla Períco , Panamá",
-        "image": "img/Biomuseo.webp", 
-        "price": "adults: 10 dollars children: 6 dollars",
-        "category": "museos"
-      },
-      {
-        "id": 2,
-        "title": "Fiestas Patrias",
-        "description": "ven y celebra con nosotros los panameños todo el mes de noviembre el mes de la patria  por los hechos históricos que formaron parte del proceso para construir una nación libre y soberana.",
-        "location": "Todo Panamá",
-        "image": "img/fpatrias.jpg",
-        "price": "free",
-        "category": "festividades nacionales"
-
-      },
-      {
-        "id": 3,
-        "title": "Caminata en Cerro Picacho",
-        "description": "Cerro Picacho es una montaña localizada al oeste de Panamá en el distrito de San Carlos,  La montaña tiene en sus laderas la Laguna de San Carlos.",
-        "location": "Provincia de Pmá. Oeste",
-        "image": "img/picacho.jpg",
-        "price": "free",
-        "distance": "3,7 kilometros",
-        "time": "1 hora 30 minutos",
-        "category":  "senderismo"
-      },
-      {
-        "id": 4,
-        "title": "Caminata en Cerro Picacho",
-        "description": "Cerro Picacho es una montaña localizada al oeste de Panamá en el distrito de San Carlos,  La montaña tiene en sus laderas la Laguna de San Carlos.",
-        "location": "Provincia de Pmá. Oeste",
-        "image": "img/picacho.jpg",
-        "price": "free",
-        "distance": "3,7 kilometros",
-        "time": "1 hora 30 minutos",
-        "category":  "senderismo"
-      },
-      {
-        "id":5,
-        "title": "Parque Nacional Loma Campana",
-        "description": "El Parque Nacional Altos de Campana fue el primer parque nacional creado en la República de Panamá, en 1966.",
-        "location": "Provincia de Pmá. Oeste",
-        "image": "img/campana.jpg",
-        "price": "10 dollars",
-        "distance": "7 kilometros",
-        "time": "1:30 minutos o 2:00 horas",
-        "category": "senderismo"
-      },
-      {
-        "id": 6,
-        "title": "Sendero El Pianista",
-        "description": "Esta ruta natural es ideal para todo aquel que quiera sumergirse en un mundo selvático verdaderamente mágico.",
-        "location": "Boquete Chiriquí, Panamá",
-        "image":"img/spianista.jpg" ,
-        "price":"free",
-        "distance": "7-9 kilometros",
-        "time": "3 horas 30 minutos",
-        "category": "senderismo"
-      },
-      {
-        "id": 7,
-        "title": "Museo de El Canal de Panamá",
-        "description": "El museo se creo en n 1996, cuando se aprobó el patronato que supervisa sus actividades y se decidió rehabilitar el edificio en que está emplazado, el cual data de 1874.",
-        "location": "Plaza Independencia, Panamá",
-        "image":"img/mcanal.jpg" ,
-        "price": "5 dollars",
-        "category": "museos"
-      },
-      {
-        "id": 8,
-        "title": "Visita el Biomuseo",
-        "description": "una conjunción poderosa entre ciencia y arte , es un museo de historia natural dedicado a Panamá que explora la relación entre su biodiversidad y su cultura.",
-        "location": "Isla Períco , Panamá",
-        "image": "img/Biomuseo.webp", 
-        "price": "adults: 10 dollars children: 6 dollars",
-        "category": "museos"
-      },
-      {
-        "id": 9,
-        "title": "museo de la mola",
-        "description": "El Museo de la Mola (MuMo) se crea con el objetivo de tener un espacio para apreciar la Mola como una pieza de arte.",
-        "location": "Casco Antiguo, Panamá",
-        "image": "img/mmola.jpg",
-        "price": "10 dollars",
-        "category": "museos"
-      },
-      {
-      "id": 10,
+  "eventos": [
+    {
+      "id": 1,
+      "title": "Caminata en Cerro Picacho",
+      "description": "Cerro Picacho es una montaña localizada al oeste de Panamá en el distrito de San Carlos,  La montaña tiene en sus laderas la Laguna de San Carlos.",
+      "location": "Provincia de Pmá. Oeste",
+      "image": "img/picacho.jpg",
+      "price": "free",
+      "distance": "3,7 kilometros",
+      "time": "1 hora 30 minutos",
+      "category": "senderismo"
+    },
+    {
+      "id": 2,
+      "title": "Parque Nacional Loma Campana",
+      "description": "El Parque Nacional Altos de Campana fue el primer parque nacional creado en la República de Panamá, en 1966.",
+      "location": "Provincia de Pmá. Oeste",
+      "image": "img/campana.jpg",
+      "price": "10 dollars",
+      "distance": "7 kilometros",
+      "time": "1:30 minutos o 2:00 horas",
+      "category": "senderismo"
+    },
+    {
+      "id": 3,
+      "title": "Sendero El Pianista",
+      "description": "Esta ruta natural es ideal para todo aquel que quiera sumergirse en un mundo selvático verdaderamente mágico.",
+      "location": "Boquete Chiriquí, Panamá",
+      "image": "img/spianista.jpg",
+      "price": "free",
+      "distance": "7-9 kilometros",
+      "time": "3 horas 30 minutos",
+      "category": "senderismo"
+    },
+    {
+      "id": 4,
+      "title": "Museo de El Canal de Panamá",
+      "description": "El museo se creo en n 1996, cuando se aprobó el patronato que supervisa sus actividades y se decidió rehabilitar el edificio en que está emplazado, el cual data de 1874.",
+      "location": "Plaza Independencia, Panamá",
+      "image": "img/mcanal.jpg",
+      "price": "5 dollars",
+      "category": "museos"
+    },
+    {
+      "id": 5,
+      "title": "Visita el Biomuseo",
+      "description": "una conjunción poderosa entre ciencia y arte , es un museo de historia natural dedicado a Panamá que explora la relación entre su biodiversidad y su cultura.",
+      "location": "Isla Períco , Panamá",
+      "image": "img/Biomuseo.webp",
+      "price": "adults: 10 dollars children: 6 dollars",
+      "category": "museos"
+    },
+    {
+      "id": 6,
+      "title": "museo de la mola",
+      "description": "El Museo de la Mola (MuMo) se crea con el objetivo de tener un espacio para apreciar la Mola como una pieza de arte.",
+      "location": "Casco Antiguo, Panamá",
+      "image": "img/mmola.jpg",
+      "price": "10 dollars",
+      "category": "museos"
+    },
+    {
+      "id": 7,
       "title": "Fiestas Patrias",
       "description": "ven y celebra con nosotros los panameños todo el mes de noviembre el mes de la patria  por los hechos históricos que formaron parte del proceso para construir una nación libre y soberana.",
       "location": "Todo Panamá",
       "image": "img/fpatrias.jpg",
       "price": "free entry",
       "category": "festividades nacionales"
-      },
-      {
-        "id": 11,
-        "title": "Festival de las Mil Polleras",
-        "description": "evento anual que busca exaltar la riqueza cultural panameña haciendo gala de nuestro vestido típico nacional, la pollera.",
-        "location": "Los Santos, Panamá",
-        "image": "img/fmilpolleras.jpg",
-        "price": "free",
-        "category": "festividades nacionales"
-        },
-        {
-            "id": 12,
-            "title": "Festival de Las Flores y el Café",
-            "description": "Este festival es una celebración de la riqueza y la diversidad de la agricultura en Panamá, con énfasis en el cultivo de flores y el procesamiento del café.",
-            "location": "Boquete Chiriquí, Panamá",
-            "image": "img/floresycafe.jpg",
-            "price": "3 dollars",
-            "category": "festividades nacionales"
-        },
-        {
-          "id": 13,
-          "title": "Playa Venao",
-          "description": "El surf es la principal atracción en Playa Venao, la orientación de la playa es perfecta para los oleajes del sur.",
-          "location": "Los Santos, Panamá",
-          "image":"img/playavenao.jpg" ,
-          "price": "free",
-          "category": "playas"
-        },
-        {
-          "id": 14,
-          "title": "Playa Santa Catalina",
-          "description": "Si eres amante del surf, la pesca y el snórquel este paraiso es la mejor opción para ti.",
-          "location": "Soná, panamá",
-          "image": "img/santacatalina.webp",
-          "price": "free",
-          "category": "playas"
-        },
-        {
-          "id": 15,
-          "title": "Isla cayo zapatilla",
-          "description": "En las islas, dentro del Parque Marino de Bastimentos, se puede practicar la pesca y el buceo en sus espectaculares arrecifes de coral y sus aguas cristalinas.",
-          "location": "Bastimentos, Bocas del Toro Panamá",
-          "image": "img/czapatilla.webp",
-          "price": "10 dollars",
-          "category": "playas"
-        }
-
-    ]
-  }
+    },
+    {
+      "id": 8,
+      "title": "Festival de las Mil Polleras",
+      "description": "evento anual que busca exaltar la riqueza cultural panameña haciendo gala de nuestro vestido típico nacional, la pollera.",
+      "location": "Los Santos, Panamá",
+      "image": "img/fmilpolleras.jpg",
+      "price": "free",
+      "category": "festividades nacionales"
+    },
+    {
+      "id": 9,
+      "title": "Festival de Las Flores y el Café",
+      "description": "Este festival es una celebración de la riqueza y la diversidad de la agricultura en Panamá, con énfasis en el cultivo de flores y el procesamiento del café.",
+      "location": "Boquete Chiriquí, Panamá",
+      "image": "img/floresycafe.jpg",
+      "price": "3 dollars",
+      "category": "festividades nacionales"
+    },
+    {
+      "id": 10,
+      "title": "Playa Venao",
+      "description": "El surf es la principal atracción en Playa Venao, la orientación de la playa es perfecta para los oleajes del sur.",
+      "location": "Los Santos, Panamá",
+      "image": "img/playavenao.jpg",
+      "price": "free",
+      "category": "playas"
+    },
+    {
+      "id": 11,
+      "title": "Playa Santa Catalina",
+      "description": "Si eres amante del surf, la pesca y el snórquel este paraiso es la mejor opción para ti.",
+      "location": "Soná, panamá",
+      "image": "img/santacatalina.webp",
+      "price": "free",
+      "category": "playas"
+    },
+    {
+      "id": 12,
+      "title": "Isla cayo zapatilla",
+      "description": "En las islas, dentro del Parque Marino de Bastimentos, se puede practicar la pesca y el buceo en sus espectaculares arrecifes de coral y sus aguas cristalinas.",
+      "location": "Bastimentos, Bocas del Toro Panamá",
+      "image": "img/czapatilla.webp",
+      "price": "10 dollars",
+      "category": "playas"
+    }
+  ]
+}

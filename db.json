@@ -35,6 +35,26 @@
     },
     {
       "id": 4,
+      "title": "Sendero Del Oleoducto",
+      "description": " Se encuentra dentro del Parque Nacional Soberanía y es uno de sus senderos más populares, por su enorme biodiversidad hay camino hasta Agua Salud pero el sendero llega hasta el Lago Gatún Es un popular destino también para quienes gustan de observar aves, ya que es posible encontrar alrededor de 525 especies.",
+      "location": "Panamá, Panamá",
+      "image": "img/sOleoducto.jpg",
+      "price": "free",
+      "distance": "6.5 kilometros",
+      "time": "4 horas ",
+      "category": "senderismo"
+    },
+    {
+      "id": 5,
+      "title": "Museo de Panamá La Vieja",
+      "description": "Panamá la Vieja o Panamá Viejo es el nombre que recibe el sitio arqueológico donde estuvo ubicada la ciudad de Panamá desde su fundación en 1519, hasta 1671. Su primer nombre fue Nuestra Señora de la Asunción de Panamá.",
+      "location": "Panamá Viejo, Panamá",
+      "image": "img/PViejo.jpg",
+      "price": "10 dollars",
+      "category": "museos"
+    },
+    {
+      "id": 6,
       "title": "Museo de El Canal de Panamá",
       "description": "El museo se creo en n 1996, cuando se aprobó el patronato que supervisa sus actividades y se decidió rehabilitar el edificio en que está emplazado, el cual data de 1874.",
       "location": "Plaza Independencia, Panamá",
@@ -43,7 +63,7 @@
       "category": "museos"
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Visita el Biomuseo",
       "description": "una conjunción poderosa entre ciencia y arte , es un museo de historia natural dedicado a Panamá que explora la relación entre su biodiversidad y su cultura.",
       "location": "Isla Períco , Panamá",
@@ -52,7 +72,7 @@
       "category": "museos"
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "museo de la mola",
       "description": "El Museo de la Mola (MuMo) se crea con el objetivo de tener un espacio para apreciar la Mola como una pieza de arte.",
       "location": "Casco Antiguo, Panamá",
@@ -61,7 +81,7 @@
       "category": "museos"
     },
     {
-      "id": 7,
+      "id": 9,
       "title": "Fiestas Patrias",
       "description": "ven y celebra con nosotros los panameños todo el mes de noviembre el mes de la patria  por los hechos históricos que formaron parte del proceso para construir una nación libre y soberana.",
       "location": "Todo Panamá",
@@ -70,7 +90,16 @@
       "category": "festividades nacionales"
     },
     {
-      "id": 8,
+      "id": 10,
+      "title": "Carnavales",
+      "description": "Los culecos o mojaderas son con disfraz, siguiendo la característica que el lunes es el día de más fantasía y el domingo de fantasía nacional,  miércoles de ceniza, comienza el Topon que no es más que la quema de cohetes y fuegos artificiales para indicar: Triunfo, finalización del carnaval y para medir fuerzas entre las tunas.",
+      "location": "Todo Panamá",
+      "image": "img/carnaval.webp",
+      "price": "free entry",
+      "category": "festividades nacionales"
+    },
+    {
+      "id": 11,
       "title": "Festival de las Mil Polleras",
       "description": "evento anual que busca exaltar la riqueza cultural panameña haciendo gala de nuestro vestido típico nacional, la pollera.",
       "location": "Los Santos, Panamá",
@@ -79,7 +108,7 @@
       "category": "festividades nacionales"
     },
     {
-      "id": 9,
+      "id": 12,
       "title": "Festival de Las Flores y el Café",
       "description": "Este festival es una celebración de la riqueza y la diversidad de la agricultura en Panamá, con énfasis en el cultivo de flores y el procesamiento del café.",
       "location": "Boquete Chiriquí, Panamá",
@@ -88,7 +117,7 @@
       "category": "festividades nacionales"
     },
     {
-      "id": 10,
+      "id": 13,
       "title": "Playa Venao",
       "description": "El surf es la principal atracción en Playa Venao, la orientación de la playa es perfecta para los oleajes del sur.",
       "location": "Los Santos, Panamá",
@@ -97,7 +126,7 @@
       "category": "playas"
     },
     {
-      "id": 11,
+      "id": 14,
       "title": "Playa Santa Catalina",
       "description": "Si eres amante del surf, la pesca y el snórquel este paraiso es la mejor opción para ti.",
       "location": "Soná, panamá",
@@ -106,7 +135,16 @@
       "category": "playas"
     },
     {
-      "id": 12,
+      "id": 15,
+      "title": "San Blas",
+      "description": "El archipiélago de Guna Yala es un conjunto de 365 pequeñas islas e islotes, pertenecientes a Panamá y situadas frente a la costa septentrional del istmo.",
+      "location": "Guna Yala, Panamá",
+      "image": "img/SBlas.jpg",
+      "price": "70 dollars",
+      "category": "playas"
+    },
+    {
+      "id": 16,
       "title": "Isla cayo zapatilla",
       "description": "En las islas, dentro del Parque Marino de Bastimentos, se puede practicar la pesca y el buceo en sus espectaculares arrecifes de coral y sus aguas cristalinas.",
       "location": "Bastimentos, Bocas del Toro Panamá",

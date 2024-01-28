@@ -44,6 +44,7 @@ header {
     position: relative;
     width: 100%;
     height: 100%;
+    top: -20px;
 }
 
 .imagen-portada {
@@ -52,8 +53,8 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     filter: blur(1px);
-    height: 350px;
-    width: 1267px;
+    height: 60vh;
+    width: 100%;
 }
 
 .texto {
@@ -78,6 +79,17 @@ h2 {
     align-items: center;
 }
 
+/*parrafo petit solucionar texto*/
+
+.parrafito {
+    text-align: left;
+    color: #ffffff;
+    padding-left: 70px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
 /*este container contiene buscador y botones de categoría*/
 
 input {
@@ -86,9 +98,10 @@ input {
     text-align: center;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     margin-left: 100px;
+    
 }
 
 
@@ -101,12 +114,12 @@ input {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'EB Garamond', serif;
+    text-align: right; /* este alineación de los botones a la derecha :)*/
+    margin-top: 80px auto; /* Aquí  ajusto la separación vertical entre la imagen y el contenedor de botones */
 }
 
-.categoria-container{
-    text-align: right; /* alineación de los botones a la derecha :)*/
-    margin: 20px auto; /* Aquí se ajusta la separación vertical entre la imagen y el contenedor de botones */
-}
+
 
 
 button {
@@ -122,6 +135,7 @@ button {
 button:hover {
     background-color: #5a5a5a;
     color: #fff;
+    
 }
 
 /*hasta aqui botones*/
@@ -133,8 +147,8 @@ button:hover {
     border: 1px solid #000000;
     border-radius: 20px;
     padding: 20px;
-    margin: 50px; /* Reduce o agranda el margen para separar o juntar*/
-    width: 300px; /* Calcula el ancho de cada tarjeta teniendo en cuenta el espacio entre ellas */
+    margin: 10px; /* Reduce o agranda el margen para separar o juntar*/
+    width: 280px; /* Calcula el ancho de cada tarjeta teniendo en cuenta el espacio entre ellas */
     text-align: center;
     box-sizing: border-box;
 }  /*hacer que mis cards esten de 3 en 3*/
@@ -179,4 +193,31 @@ h3 {
 p {
     color: #000000;
     line-height: 1.6;
+}
+
+/*footer*/
+
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0px;
+    text-align: center;
+}
+
+.contacto, .rights {
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contacto, .rights {
+        flex: 20;
+        text-align: left;
+    }
 }

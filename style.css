@@ -209,7 +209,9 @@ footer {
     margin-bottom: 15px;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 1024px) {
+
     footer {
         display: flex;
         justify-content: space-between;
